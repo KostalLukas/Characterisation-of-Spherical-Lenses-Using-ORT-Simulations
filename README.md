@@ -20,8 +20,7 @@ pip install numpy
 pip install matplotlib
 ```
 
-Additionally, the lens optimisation task which is included in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/Tasks) library which can again be installed using pip with the command
-
+Additionally, the lens optimisation task which is included in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/tree/main/Tasks) folder requires the [SciPy](https://scipy.org) library which can again be installed using pip with the command
 ```python
 pip install scipy
 ```
@@ -52,7 +51,7 @@ and alternatively, a surface with a spherical profile can be initialised with
 surface = ort.SpherSurf(p, curv, n1, n2, apt, color)
 ```
 
-A spherical lens comprised of two propagating surfaces can be initialiised using the following command
+A spherical lens comprised of two propagating surfaces can be initialised using the following command
 ```python
 lens = ort.SpherLens(p, z, curv1, curv2, n1, n2, apt, color)
 ```
@@ -129,7 +128,7 @@ Finally, the Coddington shape factor q of a spherical lens can be calculated by 
 q = lens.get_q()
 ```
 
-### Useful Fucntions
+### Useful Functions
 The module also includes a variety of useful module level functions.
 
 To calculate the magnitude of any vector simply use the function
@@ -154,10 +153,10 @@ help(ort)
 And with this I would like to wish you plenty of luck and joy in your optical ray tracing endeavours.
 
 ## Examples
-Examples of simple simulations such as a glass prism can be found in the [Examples](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/Examples) folder distributed with the module.
+Examples of simple simulations such as a glass prism can be found in the [Examples](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/tree/main/Examples) folder distributed with the module.
 
 ## Tasks and Investigations
-Tasks and investigations carried out using the module can be found in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/Tasks) and [Investigations](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/Investigations) folders which are also distributed with the module. Finally there is a technical report on characterisation of spherical lenses using the ORT module.
+Tasks and investigations carried out using the module can be found in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/tree/main/Tasks) and [Investigations](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/tree/main/Investigation) folders which are also distributed with the module. Finally there is a technical report on characterisation of spherical lenses using the ORT module.
 
 ## Version History
 The initial publicly released version of the module is v4.1 which only supports refraction and absorption by surfaces. In the near future, v5.0 is to be released and it will also support reflection as a method for surfaces to propagate light.
