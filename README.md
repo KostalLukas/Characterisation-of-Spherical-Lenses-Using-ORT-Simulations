@@ -20,7 +20,7 @@ pip install numpy
 pip install matplotlib
 ```
 
-Additionally, the lens optimisation task which is included in the tasks folder in the GitHub(https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations) repository requires the lens [SciPy](https://scipy.org) library which can again be installed using pip with the command
+Additionally, the lens optimisation task which is included in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/Tasks) library which can again be installed using pip with the command
 
 ```python
 pip install scipy
