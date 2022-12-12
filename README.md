@@ -15,13 +15,13 @@ import ORT as ort
 ### Dependencies
 The module requires Python 3 to be installed on the system. Furthermore it requires the [NumPy](https://numpy.org) and [Matplotlib](https://matplotlib.org) libraries to be installed in the working environment. These can be installed using the [pip](https://pypi.org/project/pip/) python package manager with the following commands
 
-```python
+```bash
 pip install numpy
 pip install matplotlib
 ```
 
 Additionally, the lens optimisation task which is included in the [Tasks](https://github.com/KostalLukas/Characterisation-of-Spherical-Lenses-Using-ORT-Simulations/tree/main/Tasks) folder requires the [SciPy](https://scipy.org) library which can again be installed using pip with the command
-```python
+```bash
 pip install scipy
 ```
 
